@@ -40,7 +40,7 @@ plotPatientTimeSeries = function(enc_id = NULL){
   points(timeline, col = timeline$event, pch = 19)
   legend('topright', legend = levels, pch = 19, col = 1:length(timeline$event), cex = 0.5)
   
-  print(sprintf("Encounter_ID: %s", enc_id))
+  print(sprintf("Encounter ID: %s", enc_id))
   
 }
 
